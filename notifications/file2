@@ -3,7 +3,7 @@
     "project": "some project",
     "environment": "some env",
     "comment": "some comment",
-    "reportLink": "",
+    "reportLink": "some",
     "language": "en",
     "allureFolder": "allure-report/",
     "enableChart": true

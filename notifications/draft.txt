@@ -9,7 +9,7 @@ chrome://extensions/?id=chklaanhfefbnpoihckbnefhakgolnmc
 curl -X POST -H 'Content-Type: application/json' -d '{"chat_id":"-1001811302692", "text": "HELLO WORLD", "disable_notification": true}'
 https://api.telegram.org/bot5956223486:AAEWlWWi-u63B4TJR55Nl5Ug0T22sRnzB_8/sendMessage
 
-java -DconfigFile=notifications/file.json -jar notifications/allure-notifications-4.2.1.jar
+java -DconfigFile=notifications/file -jar notifications/allure-notifications-4.2.1.jar
 
 slack
 xoxb-1687076169986-4272075541367-4LK397q956o5RNqCq5U1ZHZx
